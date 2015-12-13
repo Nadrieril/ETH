@@ -59,6 +59,11 @@ studies:
       - year: 2015-2016
         courses:
           - id: INF513
+            hoursResearch: 5
+            weeks: 16
+            content: |
+              Project in computational logic. Goal: implementing first-order SMT-solving in the "Psyche" theorem prover.
+
           - id: INF550
           - id: INF551
           - id: INF558

@@ -10,10 +10,10 @@ def make_courses_list(courses_list, courses_data):
     for sid, study in enumerate(courses_list['studies']):
         for period in study['periods']:
             for cid, course in enumerate(period['courses']):
-                o = courses_data.get(course['id'], {})
-                o['id'] = course['id']
-                if 'grade' in course:
-                    o['grade'] = course['grade']
+                o = {}
+                if course['id'] in courses_data:
+                    o.update(courses_data[course['id']])
+                o.update(course)
                 o['universityStudiesId'] = sid + 1
                 o['academicYear'] = period['year']
                 if 'literature' not in o: o['literature'] = '-'
