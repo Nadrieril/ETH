@@ -21,13 +21,15 @@ def make_courses_list(courses_list, courses_data):
     ret = []
     for sid, study in enumerate(courses_list['studies']):
         for period in study['periods']:
-            for cid, course in enumerate(period['courses']):
+            l = [(2, c) for c in period.get('projects', [])] + [(1, c) for c in period.get('courses', [])]
+            for cat, course in l:
                 o = {}
                 if course['id'] in courses_data:
                     o.update(courses_data[course['id']])
                 o.update(course)
                 o['completed'] = study['completed']
                 o['universityStudiesId'] = sid + 1
+                o['subjectCategory'] = cat
                 o['academicYear'] = period['year']
                 if 'literature' not in o: o['literature'] = '-'
                 ret.append(o)
@@ -47,7 +49,8 @@ def validate(c):
         if n > 500:
             err("La description fait plus de 500 caractères (%d)" % n)
 
-    hasHours = 'hoursLectures' in c or 'hoursPracticalWork' in c or 'hoursTutorial' in c
+    hasHours = c['subjectCategory']==1 and ('hoursLectures' in c or 'hoursPracticalWork' in c or 'hoursTutorial' in c) \
+                or c['subjectCategory']==2 and 'hoursResearch' in c
     if not hasHours:
         err("Le nombre d'heures par semaine n'est pas indiqué")
 
@@ -90,6 +93,8 @@ def display_status(courses):
         line += "%6d" % c['weeks'] if 'weeks' in c else colored('    ??', 'red')
         line += " "
 
+        hasHours = c['subjectCategory'] == 1 and ('hoursLectures' in c or 'hoursPracticalWork' in c or 'hoursTutorial' in c) \
+                    or c['subjectCategory'] == 2 and 'hoursResearch' in c
         hasHours = 'hoursLectures' in c or 'hoursPracticalWork' in c or 'hoursTutorial' in c or 'hoursResearch' in c
         if hasHours:
             fields = ['hoursLectures', 'hoursTutorial', 'hoursPracticalWork', 'hoursResearch']
@@ -97,7 +102,10 @@ def display_status(courses):
                 line += cut("%4d" % c[f] if f in c else "", 4)
                 line += " "
         else:
-            line += colored("  ??   ??   ??   ?? ", 'red')
+            if c['subjectCategory'] == 1:
+                line += colored("  ??   ??   ??      ", 'red')
+            else:
+                line += colored("                 ?? ", 'red')
 
         line += "%4d" % c['credits'] if 'credits' in c else "    "
         line += " "

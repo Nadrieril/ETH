@@ -57,13 +57,14 @@ studies:
           - {id: COM311, grade: B}
 
       - year: 2014-2015
-        courses:
+        projects:
           - id: PSC
             grade: A
             hoursResearch: 4
             content: |
               Project on automatic abstractive summarization
 
+        courses:
           - id: test
             hoursPracticalWork: 6
             grade: A+
@@ -101,13 +102,14 @@ studies:
     completed: False
     periods:
       - year: 2015-2016
-        courses:
+        projects:
           - id: INF513
             hoursResearch: 5
             weeks: 16
             content: |
               Project in computational logic. Goal: implementing first-order SMT-solving in the "Psyche" theorem prover.
 
+        courses:
           - id: INF550
           - id: INF551
           - id: INF558
