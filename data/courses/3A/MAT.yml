@@ -1,0 +1,11 @@
+MAT556:
+  courseNumber: MAT556
+  title: Modules and finite groups
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    This course introduce the fundamental notions of groups and group actions, which formalize the idea of symetry in mathematics.
+    We will first study basic facts of finite groups (Sylow theory, extension and composition sequence, decomposition in simple groups).
+    We will then introduce the general notion of a module over a ring A (non necessarily commutative), and consider two cases where one knows how to classify modules over A: when A is principal and when A is semisimple.

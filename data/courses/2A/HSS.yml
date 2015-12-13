@@ -1,0 +1,22 @@
+HSS1:
+  courseNumber: HSS1
+  title: Humanities and Social Sciences 1
+  weeks: 12
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 3
+  content: |
+    A class on political philosophy.
+    A class on economical intelligence.
+  literature: Peut-on aimer la démocratie ? Michaël Foessel
+
+HSS2:
+  courseNumber: HSS2
+  title: Humanities and Social Sciences 2
+  weeks: 12
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 3
+  content: |
+    A class on the history of empires.
+    An introduction to psychoanalysis.

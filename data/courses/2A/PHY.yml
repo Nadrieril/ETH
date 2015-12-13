@@ -1,0 +1,22 @@
+PHY430:
+  courseNumber: PHY430
+  title: Advanced Quantum Mechanics
+  content: |
+    The purpose of this course is to go beyond the first-year introductory course on quantum mechanics in order to master a more complete background on quantum physics.
+    Contents : principles of quantum mechanics; evolution operator; symmetries; Bloch theorem; approximation methods (variations, stationary and time-dependent perturbation theory); Pauli principle; addition of two spins; hydrogen atom
+  weeks: 9
+  credits: 5
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  literature: Mécanique quantique, Jean-Louis Basdevant & Jean Dalibard, Editions de l'Ecole polytechnique
+
+PHY431:
+  courseNumber: PHY431
+  title: Relativity and variational principles
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    The programme covers the following themes which have considerable overlap: Relativity, Variational principles and Analytical Mechanics.
+  literature: Principes variationnels et Mécanique analytique, Christoph Kopper; Introduction à la relativité, David Langlois

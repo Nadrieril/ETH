@@ -1,0 +1,27 @@
+MAT433:
+  courseNumber: MAT433
+  title: Distributions
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    This course introduces the formalism of distributions, which is a natural context to study the Fourier transform and partial differential equations.
+    Contents:
+    - Distributions, differenciation, convolution, regularization;
+    - Fourier transform;
+    - Poisson and Laplace equations. Harmonic functions;
+    - Heat equation;
+    - Wave equations and Schrödinger equations.
+  literature: Distributions, analyse de Fourier, équations aux dérivées partielles, François Golse, Ecole polytechnique
+
+MAT451:
+  courseNumber: MAT451
+  title: Algebra and Galois theory
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    Fundamental structures of general algebra, comprehension of fundamental concepts of Galois theory, mastering of most important examples (finite fields, cyclotomic fields, solvable field), mastering of most important historical applications (resolvability of polynomial equations, constructibility of regular polygons), calculation of extension degrees, Galois extension, Galois groups, reduction modulo p
+  literature: Introduction à la Théorie de Galois, Yves Laszlo, David Hernandez

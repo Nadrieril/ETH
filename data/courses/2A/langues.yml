@@ -1,0 +1,25 @@
+LANANG2:
+  title: Foreign Language 1 English
+  weeks: 36
+  hoursPracticalWork: 2
+  credits: 3
+  content: |
+    Grammar and language classes.
+
+LANANG2-tutoring:
+  title: Foreign Language 1 English
+  weeks: 36
+  hoursPracticalWork: 2
+  credits: 3
+  content: |
+    Bilingual students or students with a very high english level can participate in a tutoring program instead of taking a regular English course.
+    Each tutor meets up with 2 tutees twice a week (at least 30 minutes per meeting), and they have informal conversations in english about the topics of their choice.
+    The tutors will be evaluated from a written report about their pedagogic work and their tutees' progression.
+
+LANESP2:
+  title: Foreign Language 2 Spanish
+  weeks: 36
+  hoursPracticalWork: 2
+  credits: 3
+  content: |
+    Grammar and language classes.

@@ -1,0 +1,16 @@
+MIE514B:
+  courseNumber: MIE514B
+  title: "From research to innovation: from Nature to NASDAQ"
+  weeks: 6
+  hoursLectures: 2
+  content: |
+    The process that transforms a discovery made in a lab into a sellable product or service is complex. We will study several aspects of this process through concrete examples.
+    Students will also study a particular case in groups
+
+MIE524:
+  courseNumber: MIE524
+  title: "Collaborative consumption and participative models"
+  weeks: 6
+  hoursLectures: 2
+  content: |
+    Innovation theory

@@ -1,0 +1,79 @@
+MAP311:
+  courseNumber: MAP311
+  title: Randomness
+  content: |
+    Probability space, random variable on finite spaces, usual laws (Poisson, binomial), real random variables and random vectors, probability density, simulation and rejection method, convergence of random variable sequences, law of large numbers, Monte- Carlo method, characteristic function, Gaussian vectors, central limit theorem, confidence intervals, random marches
+  weeks: 10
+  credits: 5
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  literature: Aléatoire - Introduction à la théorie et au calcul des probabilités, Sylvie Méléard, Les éditions de l'Ecole polytechnique
+
+INF321:
+  courseNumber: INF321
+  title: Principles of Programming languages
+  content: |
+    Learning Java and consolidated knowledge on programming languages by giving conceptual tools
+  weeks: 10
+  credits: 5
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  literature: Principes des langages de programmation, Eric Goubault, Ecole polytechnique
+
+PHY311:
+  courseNumber: PHY311
+  title: Quantum Mechanics
+  content: |
+    Initiation to quantum mechanics: wave mechanics, the basis of the quantum mechanics theory, one-dimension problems
+  weeks: 10
+  credits: 5
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  literature: Mécanique quantique, Jean-Louis Basdevant & Jean Dalibard, Editions de l'Ecole polytechnique
+
+ECO311:
+  courseNumber: ECO311
+  title: Introduction to Economic Analysis
+  content: |
+    Market and concurrency, perfect concurrency, time and uncertainty, structural and conjectural unemployment, economic fluctuations, the role of the State
+  weeks: 10
+  credits: 5
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  literature: None
+
+MAT311:
+  courseNumber: MAT311
+  title: Real and Complex Analysis
+  content: |
+    This course aims to give to all students some common base of knowledge in functional analysis, opening up the way to many different fields : pure mathematics, applied mathematics, mechanics , theoretical physics, ...
+    The lectures are organized around 4 central themes :
+      - Lebesgue's theory of measure and integration ;
+      - Fourier analysis ;
+      - Hilbert spaces and variational methods ;
+      - The theory of holomorphic functions (functions of one complex variable which are complex differentiable)
+  weeks: 10
+  credits: 5
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  literature: Analyse réelle et complexe, Françoiss Golse, Yves Laszlo, Frank Pacard, Claude Viterbo, Ecole polytechnique
+
+HSS311:
+  courseNumber: HSS311
+  title: Thinking Organizations
+  content: |
+    Understanding organization structures and how this organization helps manage entrepreneurship to face deep technological and societal changes. These changes create tensions, contradictions, ruptures and conflicts.
+  weeks: 6
+  credits: 2
+  hoursLectures: 2
+  literature: Entreprendre en société, Sylvain Bureau
+
+COM311:
+  courseNumber: COM311
+  title: Communication Seminar
+  content: |
+    Expressing oneself in front of a group
+  weeks: 2
+  credits: 1
+  hoursPracticalWork: 4
+  literature: Prendre la parole en public, Vera Albertini, Christèle Couleau, Vera Trauffer, Florence Bouchy

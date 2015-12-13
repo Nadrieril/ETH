@@ -1,0 +1,29 @@
+
+MAP433:
+  courseNumber: MAP433
+  title: Introduction to statistical methods
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    This course's objective is to provide mathematical statistical tools enabling all the stages in modelling a concrete phenomenon to be put into practice.
+    Contents:
+    Sampling, confidence intervals
+    Modelisation. Parametrization.
+    Classical methods of estimation and parametric regression: maximum likelihood, linear models, least squares
+    Asymptotic parametric theory for estimation
+    Statistic decisions and tests, Neyman-Pearson, p-value
+    Asymptotic tests, convergence of a test, chi-squared test
+  literature: Introduction aux méthodes statistiques, Alexandre Tsybakov
+
+MAP432:
+  courseNumber: MAP432
+  title: Modelling Random Events
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    Randomness plays a key role in numerous engineering applications, like system reliability, telecommunications or image recognition. In practice, data collected at different times are often modeled by random variables for which one would like to predict their behavior.
+    The goal of this course is to formalize these concepts and to present two fundamental random processes : Markov chains and Martingales. The theory will be illustrated by various applications (PageRank, simulated annealing, ...).

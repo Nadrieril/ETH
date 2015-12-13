@@ -1,0 +1,77 @@
+INF412:
+  courseNumber: INF412
+  title: 'Foundations of Computer Science : Logic, Models, Computation'
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    This course presents the foundations of Informatics as a scientific discipline.
+    This course identifies the framework of what can or cannot be done, in terms of computability and complexity.
+
+    Propositional and predicate logic : Formulae, models, satisfiability, validity, provability
+    Examples of theories: arithmetic and set theory
+    Computational model: Turing machines, computability, decidability, the halting problem, universal machine
+    Complexity classes: P, NP, problem reduction, NP-completeness
+  literature: "Fondements de l'informatique : logique, modèles, calculs Olivier Bournez"
+
+INF421:
+  courseNumber: INF421
+  title: Algorithm Design and Analysis
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    Algorithms are the heart of all computation.
+    Having followed this course, the student will have a profound knowledge of the most central algorithms, both understanding how and why they work and being able to reduce other computational problems to these building blocks.
+    In addition to this, we shall also give a brief introduction to several recent topics like randomized algorithms, approximation algorithms, online algorithms, or algorithmic game theory.
+  literature: Design and Analysis of Algorithms, Benjamin Doerr
+
+INF431:
+  courseNumber: INF431
+  title: Algorithms and Programming
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    The aim of this course is to equip students with solid fundamental knowledge concerning the design of algorithms, the proof of their correctness, the analysis of their complexity, and more generally the design and implementation of software systems.
+    Tools to master concurrent programming and to avoid traps caused by access to shared data. Manipulation of Java threads, map-reduce method and use of Android
+  literature: Programmation d'applications concurrentes et distribuées, Julien Cervelle, Eric Goubault, Francesco Zappa Nardelli, François Pottier, Albert Cohen Samuel Mimram, Benjamin Werner
+
+INF441:
+  courseNumber: INF441
+  title: Advanced Programming
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    In real-life applications, there is a need for modularity and encapsulation to ease the creation of large programs.
+    We will study the tools and abstractions needed for that through practicals.
+    Course in Java and OCaml
+  literature: Programmation avancée, François Pottier, Ecole polytechnique
+
+INF442:
+  courseNumber: INF442
+  title: Massive Data Processing
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    Learning to use C++ to process massive data. Algorithmic methods to process data and a few concrete applications. Data partitioning techniques (clustering, non-supervised machine learning) and supervised classification techniques. Calculation on large sets of data using MPI
+  literature: Traitement des données massives, Frank Nielsen, Ecole polytechnique
+
+INF478:
+  courseNumber: INF478
+  title: Experimental Project in Computer Science (Algorithmic problem solving)
+  weeks: 9
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 5
+  content: |
+    Courses centered around practicals in a form of competitions between groups of students.
+    Use of a broad variety of algorithmic techniques such as exhaustive exploration, dynamic programming, greedy algorithms, graph problems, coupling problems
+  literature: Résolution de Problèmes Algorithmiques, S. Oudot, A. Nolin, Modal, Ecole polytechnique

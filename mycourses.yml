@@ -1,0 +1,76 @@
+studies:
+  - name: prepa
+    periods:
+      - year: 2011-2012
+        courses:
+          - {id: mpsi-maths,   grade: A}
+          - {id: mpsi-phy,     grade: A}
+          - {id: mpsi-si,      grade: A}
+          - {id: mpsi-info,    grade: A}
+          - {id: mpsi-tipe,    grade: A}
+          - {id: mpsi-philo,   grade: A}
+          - {id: mpsi-anglais, grade: B}
+          - {id: mpsi-sport,   grade: A}
+      - year: 2012-2013
+        courses:
+          - {id: mpe-maths,   grade: A}
+          - {id: mpe-phy,     grade: A}
+          - {id: mpe-info,    grade: A}
+          - {id: mpe-tipe,    grade: A}
+          - {id: mpe-philo,   grade: A}
+          - {id: mpe-anglais, grade: B}
+          - {id: mpe-sport,   grade: A}
+
+  - name: TC+2A
+    periods:
+      - year: 2013-2014
+        courses:
+          - {id: MAP311, grade: A}
+          - {id: INF321, grade: A}
+          - {id: PHY311, grade: A}
+          - {id: ECO311, grade: C}
+          - {id: MAT311, grade: B}
+          - {id: DFHM1,  grade: C}
+          - {id: HSS311, grade: C}
+          - {id: COM311, grade: B}
+      - year: 2014-2015
+        courses:
+          - {id: PSC,     grade: A}
+          - {id: PHY430,  grade: A}
+          - {id: INF412,  grade: A}
+          - {id: MAP433,  grade: B}
+          - {id: INF421,  grade: A}
+          - {id: MAT433,  grade: B}
+          - {id: PHY431,  grade: A}
+          - {id: INF431,  grade: A}
+          - {id: MAT451,  grade: A}
+          - {id: MAP432,  grade: A}
+          - {id: INF441,  grade: A}
+          - {id: INF442,  grade: A}
+          - {id: INF478,  grade: A}
+          - {id: LANANG2-tutoring, grade: A}
+          - {id: LANESP2, grade: B}
+          - {id: HSS1,    grade: C}
+          - {id: HSS2,    grade: B}
+          - {id: DFHM2,   grade: B}
+
+  - name: 3A
+    periods:
+      - year: 2015-2016
+        courses:
+          - id: INF513
+          - id: INF550
+          - id: INF551
+          - id: INF558
+          - id: MAT556
+          - id: INF562
+          - id: INF564
+          - id: INF565
+          - id: INF568
+          - id: INF591
+          - id: HSS512B
+          - id: HSS524
+          - id: MIE514B
+          - id: MIE524
+          - id: LAN572kANG
+          - id: LAN573aESP

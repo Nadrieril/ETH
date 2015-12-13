@@ -1,0 +1,17 @@
+HSS512B:
+  courseNumber: HSS512B
+  title: Modern Science History
+  weeks: 8
+  hoursLectures: 1
+  hoursPracticalWork: 1
+  content: |
+    This course introduces the students to the field of History of Science.
+    Course time will be shared between lectures about the field of History of Science, and group projects in École polytechnique's archives, which are unique in the world in the domaine of the history of sciences and technics.
+
+HSS524:
+  courseNumber: HSS524
+  title: Introduction to Cognitive Sciences
+  weeks: 6
+  hoursLectures: 2
+  content: |
+    Cognition and neurosciences; cognition and neural networks; neural network and computational neurosciences; neuro-informatics

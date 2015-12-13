@@ -1,0 +1,89 @@
+INF550:
+  courseNumber: INF550
+  title: Advanced Algorithmic
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    This is an advanced course in the design and analysis of algorithms. It reviews in particular fundamental paradigms like flows and matchings, linear programming,...
+    NP-completeness is briefly rediscussed with a focus on polynomial reductions.
+    Several ways to analyze algorithms are considered: notions of complexity, smooth analysis, amortized or parametric complexity (potentials, treewidth, or kernelization); measures of output quality (approximation factor, competitivity).
+
+INF551:
+  courseNumber: INF551
+  title: "Computational Logic: Artificial Intelligence in Mathematical Reasoning"
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    Introduction to the foundation of computer science: logic.
+    The course covers Gödel-Church-Turing incompleteness and undecidability theorems, set theory, lambda-calculus and higher-order logic, logic programming, interactive theorem proving and various automated reasoning techniques ranging from SAT-solving to unification-based proof-search and resolution. Theory is balanced with practice, with e.g. the programming of a SAT-solver, and an introduction to Prolog, to the Coq proof assistant, etc.
+  literature: Les démonstrations et les algorithmes - Introduction à la logique et à la calculabilité, Gilles Dowek
+
+INF558:
+  courseNumber: INF558
+  title: Information Theory
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    Information theory deals with finding the fundamental limits for compressing a signal, storing data or communicating information reliably over a noisy channel for instance. It turns out that all these limits can be expressed in terms of a single quantity which is entropy.
+    Contents: Entropy; Memoryless source coding, Huffman code ; 1st Shannon theorem ; Linear codes, Hamming and Reed-Solomon codes; various other codes
+
+INF562:
+  courseNumber: INF562
+  title: "Computational Geometry: from theory to applications"
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    Th aim of computational geometry is to study the properties of geometric objects such as point clouds, arrangements, geometric graphs or triangulations, both from a combinatorial and from an algorithmic point of view.
+    In this course, we will introduce a panel of theoretical questions, as well as some tools to solve various geometric problems: Convex hull, Delaunay triangulation, reconstruction from a point cloud, approximation of NP-hard geometric problems, efficient localization
+  literature: Introduction à la géométrie algorithmique et ses applications, Luca Castelli Aleardi, Steve Oudot
+
+INF564:
+  courseNumber: INF564
+  title: Compilation
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    During this course, we study and write a compiler from a simple imperative language,
+    baptised Pseudo-Pascal, to MIPS assembly language. This allows measuring and bridging
+    the gap between high-level languages and machine languages. The course also allows
+    discovering non-trivial techniques and algorithms and expressing them in a very
+    high-level language, namely Objective Caml.
+
+INF565:
+  courseNumber: INF565
+  title: Verification
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    The purpose of this course is to study how critical systems can be guaranteed to be "bug free", using specialized software tools, and to implement such techniques in the design of a certified system.
+    More precisely, this course will introduce verification techniques such as:
+    - static analysis and abstract interpretation
+    - model checking
+    - proof obligations in Hoare logics
+    - interactive theorem proving.
+    We will see the foundations of those techniques and also how they can be applied in pratice
+
+INF568:
+  courseNumber: INF568
+  title: Cryptology
+  weeks: 8
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    The aim of the course is to analyze the theory and practice of modern cryptology.
+    The first task will be to construct cryptographic primitives, such as encryption and signatures. These will then be used to build more complex protocols (authentication, key exchange, etc.).
+    Modern encryption techniques will be considered, and the security of these schemes will be analyzed: hard problems (integer factorization, discrete logarithm, etc.), OAEP-type security proofs.
+  literature: Cryptologie, François Morain; Théorie algorithmique des nombres pour la cryptologie, François Morain, J.-L. Nicolas

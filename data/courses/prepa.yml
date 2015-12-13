@@ -1,0 +1,140 @@
+mpsi-maths:
+  title: Mathematics
+  hoursLectures: 12
+  hoursTutorial: 2
+  hoursPracticalWork: 2
+  credits: 24
+  weeks: 36
+  content: |
+    Complex numbers and elementary geometry; usual functions and linear differential equations; real numbers, sequences and functions; differential calculus and integration; notions on two variables real functions; differential geometry; numbers and usual algebraic structures; linear algebra and polynomials; euclidean vectorial spaces and euclidean geometry.
+  literature: Mathématiques tout-en-un MPSI J'intègre Dunod
+
+mpsi-phy:
+  title: Physics
+  hoursLectures: 8
+  hoursTutorial: 2
+  hoursPracticalWork: 2
+  credits: 16
+  weeks: 36
+  content: |
+    Point mechanics; electrokinetics; optics; periodic table; kinetics of chemical reactions; reactions in aquatic solution; matter architecture; thermodynamics of chemical reactions
+  literature: Physique tout-en-un MPSI-PTSI J'intègre Dunod
+
+mpsi-si:
+  title: Engineering sciences
+  hoursLectures: 2
+  hoursPracticalWork: 1
+  credits: 3
+  weeks: 36
+  content: |
+    Point mechanics; electrokinetics; optics; periodic table; kinetics of chemical reactions; reactions in aquatic solution; matter architecture; thermodynamics of chemical reactions
+  literature: Physique tout-en-un MPSI-PTSI J'intègre Dunod
+
+mpsi-info:
+  title: Computer Science
+  weeks: 18
+  hoursLectures: 2
+  credits: 3
+  content: |
+    Iteration; recursion; divide and conquer; dynamic programming; data structures; tables and lists; trees
+  literature: Option informatique MPSI- MP/MP* tout-en-un Vuibert
+
+mpsi-philo:
+  title: Philosophy
+  weeks: 36
+  hoursLectures: 2
+  credits: 4
+  content: |
+    Study of three books on the theme of Justice: Les Choéphores, Les Euménides Eschyle; Pensées sur la justice Pascal; Les raisins de la colère Steinbeck
+  literature: Les Choéphores, les Euménides Eschyle; Pensées sur la justice Pascal; Les raisins de la colère Steinbeck
+
+mpsi-anglais:
+  title: English
+  weeks: 36
+  hoursLectures: 2
+  credits: 4
+  content: |
+    Grammar, translation, essay writing
+
+mpsi-sport:
+  title: Sports
+  weeks: 36
+  hoursPracticalWork: 2
+  credits: 2
+  content: |
+    Swimming classes
+
+mpsi-tipe:
+  title: TIPE
+  weeks: 36
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    Research-like project
+
+
+mpe-maths:
+  title: Mathematics
+  weeks: 28
+  hoursLectures: 13
+  hoursTutorial: 1
+  hoursPracticalWork: 2
+  credits: 24
+  content: |
+    General algebra; linear algebra and affine geometry; reduction of endomorphisms; euclidean spaces, euclidean geometry and hermitian spaces; sequences and functions; real variable functions: derivation and integration; power series and Fourier series; differential equations; functions with several real variables
+  literature: Exercices incontournables mathématiques MP/MP* Dunod J'intègre
+
+mpe-phy:
+  title: Physics
+  weeks: 28
+  hoursLectures: 8
+  hoursTutorial: 1
+  hoursPracticalWork: 2
+  credits: 16
+  content: |
+    Systems mechanics; solid mechanics; electrokinetics; electrostatics; Maxwell equations; electromagnetic energy; propagation and radiation; magneto-statics; electromagnetic induction; physical optics; thermodynamics; thermodynamics of chemical reactions; hydroxy-reduction reactions;
+  literature: Physique tout-en-un MP/MP* J'intègre Dunod
+
+mpe-info:
+  title: Computer Science
+  weeks: 28
+  hoursLectures: 2
+  hoursPracticalWork: 2
+  credits: 2
+  content: |
+    Trees; propositional calculus; state machines
+  literature: Option informatique MPSI, MP/MP* Tout-en-un Vuibert Prépas
+
+mpe-philo:
+  title: Philosophy
+  weeks: 28
+  hoursLectures: 2
+  credits: 4
+  content: |
+    Study of three books on the theme of speech: "Romances sans paroles", Verlaine; "Phèdre", Platon; "Fausses confidences", Marivaux
+  literature: '"Romances sans paroles", Verlaine; "Phèdre", Platon; "Fausses confidences", Marivaux'
+
+mpe-anglais:
+  title: English
+  weeks: 28
+  hoursLectures: 2
+  hoursTutorial: 1
+  credits: 4
+  content: |
+    Translation and essay writing
+
+mpe-sport:
+  title: Sports
+  weeks: 28
+  hoursPracticalWork: 2
+  credits: 2
+  content: |
+    Swimming classes
+
+mpe-tipe:
+  title: TIPE
+  weeks: 28
+  hoursPracticalWork: 2
+  credits: 4
+  content: |
+    Research-like project
