@@ -14,6 +14,7 @@ def make_courses_list(courses_list, courses_data):
                 if course['id'] in courses_data:
                     o.update(courses_data[course['id']])
                 o.update(course)
+                o['completed'] = study['completed']
                 o['universityStudiesId'] = sid + 1
                 o['academicYear'] = period['year']
                 if 'literature' not in o: o['literature'] = '-'
@@ -43,7 +44,7 @@ def compute_errors(courses):
             err(True, "Le nombre de semaines n'est pas indiqué")
 
         hasCredits = 'credits' in c
-        if not hasCredits:
+        if c['completed'] and not hasCredits:
             err(False, "Le nombre de crédits n'est pas indiqué")
 
     return errors
