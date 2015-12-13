@@ -36,31 +36,32 @@ def make_courses_list(courses_list, courses_data):
 
 def validate(c):
     errors = []
-    def err(b, s): errors.append({'id': c['id'], 'msg': s, 'err': b})
+    def err(s): errors.append({'id': c['id'], 'msg': s, 'err': True})
+    def warn(s): errors.append({'id': c['id'], 'msg': s, 'err': False})
 
     hasContent = 'content' in c
     if not hasContent:
-        err(True, "Le cours n'a pas de description")
+        err("Le cours n'a pas de description")
     else:
         n = len(c['content'])
         if n > 500:
-            err(True, "La description fait plus de 500 caractères (%d)" % n)
+            err("La description fait plus de 500 caractères (%d)" % n)
 
     hasHours = 'hoursLectures' in c or 'hoursPracticalWork' in c or 'hoursTutorial' in c
     if not hasHours:
-        err(True, "Le nombre d'heures par semaine n'est pas indiqué")
+        err("Le nombre d'heures par semaine n'est pas indiqué")
 
     hasWeeks = 'weeks' in c
     if not hasWeeks:
-        err(True, "Le nombre de semaines n'est pas indiqué")
+        err("Le nombre de semaines n'est pas indiqué")
 
     hasCredits = 'credits' in c
     if c['completed'] and not hasCredits:
-        err(False, "Le nombre de crédits n'est pas indiqué")
+        warn("Le nombre de crédits n'est pas indiqué")
 
     hasGrade = 'grade' in c
     if c['completed'] and not hasGrade:
-        err(False, "La note n'est pas indiquée")
+        warn("La note n'est pas indiquée")
 
     return errors
 
