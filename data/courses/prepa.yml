@@ -67,10 +67,7 @@ mpsi-sport:
 mpsi-tipe:
   title: TIPE
   weeks: 36
-  hoursPracticalWork: 2
   credits: 4
-  content: |
-    Research-like project
 
 
 mpe-maths:
@@ -134,7 +131,4 @@ mpe-sport:
 mpe-tipe:
   title: TIPE
   weeks: 28
-  hoursPracticalWork: 2
   credits: 4
-  content: |
-    Research-like project

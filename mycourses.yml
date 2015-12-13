@@ -8,16 +8,29 @@ studies:
           - {id: mpsi-phy,     grade: A}
           - {id: mpsi-si,      grade: A}
           - {id: mpsi-info,    grade: A}
-          - {id: mpsi-tipe,    grade: A}
+
+          - id: mpsi-tipe
+            grade: A
+            hoursPracticalWork: 2
+            content: |
+              Research-like project
+
           - {id: mpsi-philo,   grade: A}
           - {id: mpsi-anglais, grade: B}
           - {id: mpsi-sport,   grade: A}
+
       - year: 2012-2013
         courses:
           - {id: mpe-maths,   grade: A}
           - {id: mpe-phy,     grade: A}
           - {id: mpe-info,    grade: A}
-          - {id: mpe-tipe,    grade: A}
+
+          - id: mpe-tipe
+            grade: A
+            hoursPracticalWork: 2
+            content: |
+              Research-like project
+
           - {id: mpe-philo,   grade: A}
           - {id: mpe-anglais, grade: B}
           - {id: mpe-sport,   grade: A}
@@ -32,12 +45,36 @@ studies:
           - {id: PHY311, grade: A}
           - {id: ECO311, grade: C}
           - {id: MAT311, grade: B}
-          - {id: DFHM1,  grade: C}
+          - id: DFHM1
+            grade: C
+            hoursPracticalWork: 35
+            content: |
+              Military training and internship on BPC Tonnerre, a French Navy Ship.
+              Assisted the officer in charge of the ship's engines and energy systems.
+              Improved and developped software for the military operations department.
+
           - {id: HSS311, grade: C}
           - {id: COM311, grade: B}
+
       - year: 2014-2015
         courses:
-          - {id: PSC,     grade: A}
+          - id: PSC
+            grade: A
+            hoursResearch: 4
+            content: |
+              Project on automatic abstractive summarization
+
+          - id: test
+            hoursPracticalWork: 6
+            grade: A+
+            content: |
+              lmqksjdfoizqernviurenslkjhfgizerjsnvkjsfjkghmqsvhzuievnqjnzejklqslkdjflkqsjdfznceoien
+              lmqksjdfoizqernviurenslkjhfgizerjsnvkjsfjkghmqsvhzuievnqjnzejklqslkdjflkqsjdfznceoien
+              lmqksjdfoizqernviurenslkjhfgizerjsnvkjsfjkghmqsvhzuievnqjnzejklqslkdjflkqsjdfznceoien
+              lmqksjdfoizqernviurenslkjhfgizerjsnvkjsfjkghmqsvhzuievnqjnzejklqslkdjflkqsjdfznceoien
+              lmqksjdfoizqernviurenslkjhfgizerjsnvkjsfjkghmqsvhzuievnqjnzejklqslkdjflkqsjdfznceoien
+              lmqksjdfoizqernviurenslkjhfgizerjsnvkjsfjkghmqsvhzuievnqjnzejklqslkdjflkqsjdfznceoien
+
           - {id: PHY430,  grade: A}
           - {id: INF412,  grade: A}
           - {id: MAP433,  grade: B}
@@ -54,7 +91,11 @@ studies:
           - {id: LANESP2, grade: B}
           - {id: HSS1,    grade: C}
           - {id: HSS2,    grade: B}
-          - {id: DFHM2,   grade: B}
+          - id: DFHM2
+            grade: B
+            hoursPracticalWork: 6
+            content: |
+              Swimming practice and competition.
 
   - name: 3A
     completed: False

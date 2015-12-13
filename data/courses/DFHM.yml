@@ -2,15 +2,8 @@ DFHM1:
   title: Leadership Training
   weeks: 30
   credits: 5
-  content: |
-    Military training and internship on BPC Tonnerre, a French Navy Ship.
-    Assisted the officer in charge of the ship's engines and energy systems.
-    Improved and developped software for the military operations department.
 
 DFHM2:
   title: Sports and General behaviour
   weeks: 36
-  hoursPracticalWork: 5
   credits: 5
-  content: |
-    Swimming practice and competition.

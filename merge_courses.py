@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import yaml, json, sys, os
+from termcolor import colored
+import colorama; colorama.init() # Cross-platform colors
 
 COURSES_DIR = 'data/courses'
 
@@ -56,10 +58,11 @@ def compute_errors(courses):
 
 def display_status(courses):
     def cut(s, n): return ("{:"+str(n)+"}").format(s)[:n]
+    def cutr(s, n): return ((" "*n)+s)[-n:]
 
-    print("id             words           Wk Le Tu Pr Re ECTS  title")
+    print("id                  words  weeks lect tuto prac  res ECTS grade    title")
     for c in l:
-        line = cut(c['id'], 15)
+        line = cut(c['id'], 20)
         hasContent = 'content' in c
         if not hasContent:
             print(line)
@@ -67,22 +70,31 @@ def display_status(courses):
 
         n = len(c['content'])
         contentLengthOk = n <= 500
-        hasWeeksAndCredits = 'weeks' in c and 'credits' in c
-        hashours = 'hoursLectures' in c or 'hoursPracticalWork' in c
 
-        line += cut(str(n), 6)
-        line += "x" if contentLengthOk else " "
+        line += colored("%5d" % n, 'green' if contentLengthOk else 'red')
         line += " "
-        line += "x" if hasWeeksAndCredits else " "
+
+        line += "%6d" % c['weeks'] if 'weeks' in c else colored('    ??', 'red')
         line += " "
-        line += "x" if hashours else " "
 
-        line += "     "
-        fields = ['weeks', 'hoursLectures', 'hoursTutorial', 'hoursPracticalWork', 'hoursResearch', 'credits']
-        for f in fields:
-            line += "%2d " % c[f] if f in c else "   "
+        hasHours = 'hoursLectures' in c or 'hoursPracticalWork' in c or 'hoursTutorial' in c or 'hoursResearch' in c
+        if hasHours:
+            fields = ['hoursLectures', 'hoursTutorial', 'hoursPracticalWork', 'hoursResearch']
+            for f in fields:
+                line += cut("%4d" % c[f] if f in c else "", 4)
+                line += " "
+        else:
+            line += colored("  ??   ??   ??   ?? ", 'red')
 
-        line += "   " + c.get('title', '')
+        line += "%4d" % c['credits'] if 'credits' in c else "    "
+        line += " "
+
+        line += cutr(c['grade'] if 'grade' in c else "", 5)
+        line += " "
+
+
+        line += "   "
+        line += c.get('title', '')
 
         print(line)
 
@@ -100,7 +112,7 @@ for dirname, dirnames, filenames in os.walk(COURSES_DIR):
                 courses_data.update(o)
 
 l = make_courses_list(courses_list, courses_data)
-# display_status(l)
+display_status(l)
 
 for x in compute_errors(l):
     err = "Err " if x['err'] else "Warn"

@@ -2,7 +2,4 @@ PSC:
   courseNumber: PSC
   title: Scientific Project Team Research
   weeks: 35
-  hoursResearch: 4
   credits: 7
-  content: |
-    Project on automatic abstractive summarization
