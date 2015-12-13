@@ -6,6 +6,16 @@ import colorama; colorama.init() # Cross-platform colors
 
 COURSES_DIR = 'data/courses'
 
+def load_course_data():
+    courses_data = {}
+    for dirname, dirnames, filenames in os.walk(COURSES_DIR):
+        for filename in filenames:
+            with open(os.path.join(dirname, filename)) as f:
+                o = yaml.load(f)
+                if o is not None:
+                    courses_data.update(o)
+
+    return courses_data
 
 def make_courses_list(courses_list, courses_data):
     ret = []
@@ -55,7 +65,6 @@ def compute_errors(courses):
 
     return errors
 
-
 def display_status(courses):
     def cut(s, n): return ("{:"+str(n)+"}").format(s)[:n]
     def cutr(s, n): return ((" "*n)+s)[-n:]
@@ -99,17 +108,10 @@ def display_status(courses):
         print(line)
 
 
-
 with open("mycourses.yml") as f:
     courses_list = yaml.load(f)
 
-courses_data = {}
-for dirname, dirnames, filenames in os.walk(COURSES_DIR):
-    for filename in filenames:
-        with open(os.path.join(dirname, filename)) as f:
-            o = yaml.load(f)
-            if o is not None:
-                courses_data.update(o)
+courses_data = load_course_data()
 
 l = make_courses_list(courses_list, courses_data)
 display_status(l)
