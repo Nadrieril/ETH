@@ -47,6 +47,10 @@ def compute_errors(courses):
         if c['completed'] and not hasCredits:
             err(False, "Le nombre de crédits n'est pas indiqué")
 
+        hasGrade = 'grade' in c
+        if c['completed'] and not hasGrade:
+            err(False, "La note n'est pas indiquée")
+
     return errors
 
 
