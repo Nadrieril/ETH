@@ -118,5 +118,9 @@ for x in compute_errors(l):
     err = "Err " if x['err'] else "Warn"
     print("[%s] %s: %s" % (err, x['id'], x['msg']))
 
+for x in l:
+    del x['id']
+    del x['completed']
+
 with open("merged.yml", "w") as f:
-    yaml.safe_dump({'courses':l}, f)
+    yaml.safe_dump({'courses':l}, f, default_flow_style=False)
